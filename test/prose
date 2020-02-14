@@ -148,3 +148,4 @@ async.map(ignore.filter(glob.sync('_articles/**/*.md')), function(filePath, call
   console.log(report(results));
   if(statistics(results).total) process.exit(1);
 });
+@Arkham20
